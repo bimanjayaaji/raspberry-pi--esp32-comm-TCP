@@ -2,6 +2,10 @@
 
 Repo Structure :
 
-1. Communication between 2 ESP32, where the first ESP32 creates its own wireless network (ESP32 Soft-Access-Point), so that the other WiFi devices can connect to the network. Tested using PlatformIO in Visual Studio Code. This example uses "ESPAsyncWebServer" library which can be downloaded from PlatformIO Library menu in VSCode.
+1. Basic communication between 2 ESP32.
 
-2. Communication
+2. Communication between ESP32 and Raspberry-Pi using socket library.
+
+3. MQTT Communication between Raspberry-Pi and 2 ESP32 devices.
+
+4. Communication between 3 ESP32 devices.
